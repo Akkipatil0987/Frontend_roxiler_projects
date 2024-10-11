@@ -1,0 +1,160 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.App {
+  max-width: 1200px;
+  margin: auto;
+  background: #d0ece7;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+  color: #000000;
+  background-color: #fff1cf;
+  padding: 20px;
+  border-radius: 70px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.mainss{
+  margin-bottom: 50px;
+}
+.statistics-container {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #777777;
+  border-radius: 20px;
+  background-color: #fff1cf;
+}
+.filters {
+  margin-bottom: 15px;
+}
+
+.filters label {
+  margin-right: 10px;
+}
+
+select, .search-bar {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-right: 10px;
+}
+
+.statistics {
+  margin-top: 10px;
+}
+
+.barchart-container {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #777777;
+  border-radius: 20px;
+  background-color: #fff1cf;
+}
+
+.table-wrapper {
+  border: 1px solid #777777;
+  margin-top: 20px;
+  overflow-x: auto;
+  background: #fff1cf;
+  border-radius: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+
+}
+
+th {
+  background-color: #e5bb52;
+  color: #333;
+  text-align: center;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+.pgns{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.pagination button {
+  padding: 8px 25px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}
